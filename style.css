@@ -96,3 +96,58 @@ body {
     font-weight: 800 !important;
     display: inline-block;
 }
+/* Pure Contact Card Form ka Background Gradient (Purple & Blue Mix) */
+#contact .card {
+    background:  #f1f5f9 ;
+    border: 1px solid rgba(99, 102, 241, 0.2) !important; /* Soft Purple border */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Form ke andar ki main heading */
+#contact h2 {
+    background: linear-gradient(135deg, #6366f1 0%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+/* Chota text (Subtitle) */
+#contact p.text-muted {
+    color: #cbd5e1 !important; /* Soft Silver Gray */
+}
+
+/* Form Inputs (Name, Email, etc.) */
+#contact .form-control {
+    background-color: milky white; 
+    border: 1px solid rgba(99, 102, 241, 0.3) !important;
+    color: #ffffff !important;
+    backdrop-filter: blur(4px);
+}
+
+#contact .form-control::placeholder {
+    color: purple !important;
+}
+
+/* Jab input field par click karein (Glow effect) */
+#contact .form-control:focus {
+    border-color: #38bdf8 !important; /* Cyan glow on focus */
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25) !important;
+}
+
+/* Form labels text */
+#contact .form-label {
+    color: #f1f5f9 !important;
+}
+
+/* Submit Button to match the theme */
+#contact .btn-custom {
+    background: linear-gradient(135deg, #6366f1, #0ea5e9) !important;
+    border: none !important;
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+#contact .btn-custom:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.5);
+}
